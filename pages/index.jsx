@@ -4,13 +4,14 @@ import Portfolio from '@/components/Portfolio'
 import Resume from '@/components/Skills'
 export default function Home() {
   return (
-    <main>
-      <div className='h-screen w-full pt-20 xs:px-5 sm:px-10 overflow-y-auto'>
+    <div className='h-screen w-full xs:px-5 sm:px-20 overflow-y-auto'>
+      <div className='w-full xs:h-20 sm:h-28'></div>
+      <div className='h-full'>
         <Banner />
         <Resume />
         <Portfolio/>
         <Form />
       </div>
-    </main>
+    </div>
   )
 }
