@@ -22,20 +22,20 @@ export default function Banner() {
             </div>
             <div className='flex-1 h-full flex items-center'>
                 <div className='h-full grid xs:gap-2 sm:gap-4 grid-cols-2 xs:grid-rows-6 sm:grid-rows-5 w-full'>
-                    <div className='rounded-tl-[70px] bg-green-200 flex xs:flex-col sm:flex-col gap-5 justify-center items-center h-full border shadow-lg sm:row-span-3 xs:row-span-3'>
+                    <div className='rounded-tl-[70px] bg-green-200 flex xs:flex-col sm:flex-col gap-5 justify-center items-center h-full border shadow-md sm:row-span-3 xs:row-span-3'>
                         <span className='text-5xl text-green-500'><SiMongodb /></span>
                         <span className={`xs:text-lg sm:text-2xl ${bruno.className}`}>MongoDB</span>
                     </div>
-                    <div className='py-5 rounded-tr-[70px] bg-red-200 flex sm:gap-5 xs:flex-col sm:flex-col justify-center items-center h-full border shadow-lg sm:row-span-2 xs:row-span-2'>
+                    <div className='py-5 rounded-tr-[70px] bg-red-200 flex sm:gap-5 xs:flex-col sm:flex-col justify-center items-center h-full border shadow-md sm:row-span-2 xs:row-span-2'>
                         <span className='text-4xl text-red-500'><SiExpress /></span>
                         <span className={`xs:text-lg sm:text-2xl ${bruno.className}`}>Express</span>
 
                     </div>
-                    <div className='rounded-br-[70px] bg-green-400 flex xs:flex-col sm:flex-col gap-5 justify-center items-center h-full border shadow-lg sm:row-span-3 xs:row-span-3'>
+                    <div className='rounded-br-[70px] bg-green-400 flex xs:flex-col sm:flex-col gap-5 justify-center items-center h-full border shadow-md sm:row-span-3 xs:row-span-3'>
                         <span className='text-5xl text-green-700' ><SiNodedotjs /></span>
                         <span className={`xs:text-lg sm:text-2xl ${bruno.className}`}>Node</span>
                     </div>
-                    <div className='py-5 rounded-bl-[70px] bg-blue-200 flex xs:flex-col sm:flex-col sm:gap-5 justify-center items-center h-full border shadow-lg sm:row-span-2 xs:row-span-2 '>
+                    <div className='py-5 rounded-bl-[70px] bg-blue-200 flex xs:flex-col sm:flex-col sm:gap-5 justify-center items-center h-full border shadow-md sm:row-span-2 xs:row-span-2 '>
                         <span className='text-4xl text-blue-500'><FaReact /></span>
                         <span className={`xs:text-lg sm:text-2xl ${bruno.className}`}>React</span>
                     </div>
