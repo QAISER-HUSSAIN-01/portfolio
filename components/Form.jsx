@@ -26,7 +26,7 @@ export default function Form() {
         
     }
     return (
-        <div id='contact' className='mt-32 xs:mb-40 sm:mb-40 w-full h-5/6 flex items-center flex-col gap-4'>
+        <div id='contact' className='xs:pt-20 sm:pt-32 xs:pb-40 sm:pb-40 w-full flex items-center flex-col gap-4'>
             <h4 className={`text-2xl ${bruno.className}`}>Contact Me</h4>
             <form onSubmit={handleSubmit} className='border p-5 rounded-md flex flex-col gap-4 xs:w-full sm:w-4/6 md:w-4/6 lg:w-3/6'>
                 <div className='flex flex-col'>

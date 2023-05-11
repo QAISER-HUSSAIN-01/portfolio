@@ -4,7 +4,7 @@ export default function Menu() {
     return (
         <>
             {/* // <div className='sm:flex-[0.7] md:flex-[0.6] lg:flex-[0.4] justify-around flex '> */}
-            <a href="#home">
+            <a href='#home'>
                 <div className='flex flex-col items-center group cursor-pointer'>
                     <span className='text-2xl text-gray-700 group-hover:animate-bounce'><MdHome /></span>
                     <span className='text-sm'>Home</span>

@@ -7,8 +7,8 @@ const bruno = Bruno_Ace_SC({ weight: ['400'], subsets: ['latin-ext'] });
 
 export default function Resume() {
   return (
-    <div id='skills' className='w-full sm:mb-20 xs:mb-0'>
-      <div className='pt-32'>
+    <div id='skills' className='w-full xs:pt-20 sm:pt-32'>
+      <div className=''>
         <h1 className={`text-center text-3xl ${bruno.className}`}>Skills</h1>
         <div className='grid xs:grid-cols-1 sm:grid-cols-2 gap-4 mt-10'>
           {skills.map((item,index)=>(
